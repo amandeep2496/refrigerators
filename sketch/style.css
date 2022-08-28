@@ -1,8 +1,54 @@
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-  canvas {
-    display: block;
-  }
-  
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font: system-ui, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 20px 0;
+  text-align: center;
+  background-color: rgb(218, 113, 56);
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav > a {
+  color: white;
+}
+
+main {
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+img {
+  width: 150px;
+}
+
+/**
+HTML Tag -> <header> 
+header { property: value}
+HTML Class -> <section class="xyz">  These are repeated
+.xyz {property: value}
+HTML id -> <section id="xyz"> These are unique
+.xyz {property: value}
+**/
